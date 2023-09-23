@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AbsentListActivity">
+
+    <TextView
+        android:id="@+id/abs"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="bottom"
+        android:text="Absent Students"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="75dp"
+        android:gravity="bottom"
+        android:text="DATE"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <ListView
+        android:id="@+id/absentlist"
+        android:layout_width="wrap_content"
+        android:layout_height="417dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/msgBtn"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="@color/lavender"
+        android:text="Send Message"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="650dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/lavender"
+        android:text="Logout" />
+
+
+
+</RelativeLayout>

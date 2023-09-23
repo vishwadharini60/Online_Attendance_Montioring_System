@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/dashboard" />
+
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:id="@+id/studentname"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="student name"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:id="@+id/usn"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:text="usn"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:id="@+id/phno"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:text="phone no"
+        android:gravity="center_horizontal" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="380dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="30dp"
+        android:elevation="30dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="295dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="50dp"
+            android:paddingRight="20dp">
+
+            <TableRow
+                android:layout_width="300dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:id="@+id/subject"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="Subject"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/present"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="Present"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="Total"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/percentage"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="%"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subject1"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="CO"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/present1"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="sub1"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/total1"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="sub1"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/percentage1"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="sub1"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subject2"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="IOT"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/present2"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="sub2"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/total2"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="sub2"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/percentage2"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="sub2"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subject3"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="MATH"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/present3"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="sub3"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/total3"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="sub3"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/percentage3"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="sub3"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/lavender"
+            android:text="Logout" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
